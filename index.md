@@ -7,10 +7,6 @@ It calculates the **average** probability and the cost of getting a certain amou
 
 The script is based on data from <a href="sheet.png">this table.</a> If you think the data is wrong you can edit the variables and make your own calculation
 
-### How to read it?
-
-Example: getting 20 failstacks with reblath shoes has a chance of ~22%, will take ~4.5 attempts and will cost ~18 783 000 silver, which includes a cost of ~91 blackstones and reblath armor to repair max durability.
-
 ### Things to remember
 
 1. It's based on unofficial information, so it is just a speculation.

@@ -19,7 +19,7 @@ The script is based on data from <a href="sheet.png">this table.</a> If you thin
 	<thead>
 		<tr>
 			<th>Failstacks</th>
-			<th>Chance, %</th>
+			<th>Chance</th>
 			<th>Attempts</th>
 			<th>Cost, silver</th>
 			<th>Blackstones</th>

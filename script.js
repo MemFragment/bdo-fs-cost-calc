@@ -20,17 +20,28 @@ function calculate() {
 	targetFss.forEach(function(targetFs) {
 		var chance = 1
 		var currentVal = baseVal
+		var throwsAvg = 0
+		var oldChance = chance
 		
 		for (i=0;i<targetFs;i++) {
+			oldChance = chance
+			
 			chance = (1 - currentVal/1000) * chance
+			
+			throwsAvg += oldChance
 			
 			if (i < maxFs )
 				currentVal += fsIncrease;
 			
+			
+			
 			// console.log(currentVal);
+			
+					
 		}
 		
-		var price = ((1/chance) * targetFs * stoneCost) + ((1/chance) * targetFs * armorCost/2)
+		
+		var price = ((1/chance) * throwsAvg * stoneCost) + ((1/chance) * throwsAvg * armorCost/2)
 		console.log(chance, price)
 		
 		tableHtml += '<tr>';
@@ -38,10 +49,10 @@ function calculate() {
 		tableHtml += '<td>' + chance.toFixed(3) + '</td>';
 		tableHtml += '<td>' + (1/chance).toFixed(2) + '</td>';
 		tableHtml += '<td>' + parseInt(price).toLocaleString().replace(/,/g,' ') + '</td>';
-		tableHtml += '<td>' + (((1/chance) * targetFs).toFixed(2)).replace('.','<span>,') + '</span></td>';
+		tableHtml += '<td>' + ((1/chance) * throwsAvg).toFixed(2).replace('.','<span>,') + '</span></td>';
 		tableHtml += '</tr>';
 	})
-
+	
 	table.innerHTML += tableHtml
 }
 

@@ -7,3 +7,7 @@ input {
     margin-bottom: 10px;
     margin-right: 5px;
 }
+
+img#summ {
+	display: block;
+}

@@ -5,7 +5,7 @@
 
 It calculates the **average** probability and the cost of getting a certain amount of failstacks using +14 reblath armor (shoes). It suggests that if you get it to +15 then you drop it using a negative karma character.
 
-<img id="summ" src="summ.png"> Formula of calculation of silver cost and the amount of blackstones, where **fs** is a desirable amount of failstacks and **p** is a chance of a previous enchant.
+<img id="summ" src="summ.png"> This formula calculates the silver cost and the amount of blackstones, where **fs** is a desirable amount of failstacks and **p** is a chance of a previous enchant.
 
 The script is based on data from <a href="sheet.png">this table.</a> If you think the data is wrong you can edit the variables and make your own calculation
 

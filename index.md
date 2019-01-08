@@ -35,9 +35,9 @@ The script is based on data from <a href="sheet.png">this table.</a> If you thin
 
 You can enter your own data co make a calculation for other prices/probabilities below
 
-<input type="text" id="baseVal" name="baseVal" value="0.25"> Base upgrade success chance<br>
-<input type="text" id="fsIncrease" name="fsIncrease" value="0.05"> % increase per failstack<br>
-<input type="text" id="maxFs" name="maxFs" value="25"> Max effective failstacks<br>
+<input type="text" id="baseVal" name="baseVal" value="0.22"> Base upgrade success chance<br>
+<input type="text" id="fsIncrease" name="fsIncrease" value="0.02"> % increase per failstack<br>
+<input type="text" id="maxFs" name="maxFs" value="120"> Max effective failstacks<br>
 <input type="text" id="stoneCost" name="stoneCost" value="200000"> Blackstone cost<br>
 <input type="text" id="armorCost" name="armorCost" value="12900"> Armor cost<br>
 <button type="button" id="calculate" onclick="calculate();">Recalculate</button>

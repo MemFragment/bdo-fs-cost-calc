@@ -11,8 +11,7 @@ Reblath enchant chance is taken from ingame data. You can alter the variables fo
 
 ### Things to remember
 
-1. It's based on unofficial information, so it is just a speculation.
-2. Data shows an **average** calculation. Your personal single experience may heavily vary.
+Data shows an **average** calculation. Your personal single experience may heavily vary, but on a log run the model should work fine.
 
 
 ## FS table

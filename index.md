@@ -7,7 +7,7 @@ It calculates the **average** probability and the cost of getting a certain amou
 
 <img id="summ" src="summ.png"> This formula calculates the silver cost and the amount of blackstones, where **fs** is a desirable amount of failstacks and **p** is a chance of a previous enchant.
 
-Reblack enchant chance is taken from ingame data. You can alther the variables for your own need.
+Reblath enchant chance is taken from ingame data. You can alter the variables for your own need.
 
 ### Things to remember
 
